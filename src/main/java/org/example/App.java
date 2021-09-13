@@ -1,7 +1,7 @@
 package org.example;
 import java.util.Scanner;
 import java.util.Date;
-import java.text.SimpleDateFormat
+import java.text.SimpleDateFormat;
 /**
  * Retirment Calculator
  * UCF cop3330 Fall 2021 Assignment 6 Solution
@@ -25,7 +25,7 @@ public class App
 
         int yearOfRetirment = (retirment_age - age) + intYear;
 
-        System.out.println("It's " + intYear + "so you can retire in " + yearOfRetirment);
+        System.out.println("\nIt's " + intYear + ", so you can retire in " + yearOfRetirment + ".");
 
     }
 }
